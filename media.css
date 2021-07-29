@@ -166,7 +166,7 @@ a.knopka:active { background: rgb(141, 119, 219); }
   li {
       list-style: none;
        margin-left: 16px;
-       margin-right: 18px;
+       margin-right: 16.1px;
      }
   li {float: left; } 
   .spisok{
@@ -244,6 +244,7 @@ a.knopka:active { background: rgb(141, 119, 219); }
           list-style: none;
           box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
           transition-duration: .25s;
+          z-index: 100;
         }
          
         .menu-item {
@@ -279,12 +280,11 @@ a.knopka:active { background: rgb(141, 119, 219); }
           width: 100%;
           left: -2%;
           border-radius: 0;
+          top: 120px;
           }
         .h2{
         left: 0;
-        }
-        .block4, .h2{
-          z-index: -1;
+        top: 80px;
         }
         .h2,h2,h3,p{
             font-size: 90%;
